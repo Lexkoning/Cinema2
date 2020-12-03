@@ -35,6 +35,9 @@
 
 		<joda.time.version>2.2</joda.time.version>
 		<usertype.version>3.0.0.GA</usertype.version>
+		
+		<maven.compiler.source>1.6</maven.compiler.source>
+    		<maven.compiler.target>1.6</maven.compiler.target>
 
 	</properties>
 
@@ -329,8 +332,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<properties>
-    		<maven.compiler.source>1.6</maven.compiler.source>
-    		<maven.compiler.target>1.6</maven.compiler.target>
-	</properties>
+	
 </project>
